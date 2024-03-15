@@ -1,0 +1,237 @@
+/* | Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* | Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* | CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+   display: block;
+   max-width: 100%;
+   height: auto;
+}
+
+/* | Utility Classes */
+
+.offscreen {
+    position: absolute;
+    left: -10000px;
+    color: aqua;
+    font-size: 0.5rem !important;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+/* | General Styles */
+
+body {
+    font-family: "Open Sans", sans-serif;
+    width: min(100%, 481px);
+    min-height: 100vh;
+    padding: 0.75rem 3rem;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12vh;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15vh;
+}
+
+h1, h2, h3 {
+    font-family: "Poppins", sans-serif;
+}
+
+
+.nav_top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: burlywood; */
+    padding: 0.5rem 0;
+}
+
+.logo_link {
+    width: 40%;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+.nav_link {
+    font-size: 0.6rem;
+    color: hsl(322, 100%, 66%);
+    text-decoration: none;
+    border: 1px solid hsl(322, 100%, 66%);
+    padding: 0.5em 1.1em;
+    border-radius: 1em;
+}
+
+.header_container {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1 {
+    width: min(100%);
+    font-size: 1.5rem;
+    /* text-align: center; */
+    margin-bottom: 1.2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 1;
+}
+
+.h_content {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.h_link {
+    font-size: 0.7rem;
+    font-weight: 600;
+    background-color: hsl(322, 100%, 66%);
+    padding: 0.5rem 1.8em;
+    border-radius: 2em;
+    margin-bottom: 4rem;
+}
+
+.h_link a {
+    color: white;
+    text-decoration: none;
+}
+
+.screen_mokups_figure {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen_mokups_image {
+    width: min(90%, 481px);
+}
+
+
+.communities_messages_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+
+    /* background-color: burlywood; */
+}
+
+.communities_messages_box {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.communities_messages_box :nth-child(2) {
+    font-weight: 700;
+    font-size: 3.8rem;
+}
+.box_item1:first-child {
+    align-self: flex-start;
+    padding-left: 0.75rem;
+}
+.box_item1:not(:first-child) {
+    /* align-self: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.gray_text {
+    color: hsl(0, 0%, 69%);
+    font-size: 1rem;
+    font-weight: 500;
+    /* background-color: black; */
+}
+
+.illustration_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20vh;
+}
+
+.illustration_container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 5em;
+}
+
+.illustration_content {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 1rem;
+}
+
+.illustration_content p {
+    font-size: 0.9rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.phone_and_email_icons {
+    background-color: hsl(192, 100%, 9%);
+    padding: 1rem;
+}
