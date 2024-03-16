@@ -14,7 +14,7 @@
     <body>
 
 
-        <header>
+        <header class="pad">
             <nav class="nav_top">
                 <a href="#" class="logo_link">
                     <img src="images/logoTop.svg" alt="Huddle Logo" width="240" height="39" class="logo">
@@ -24,7 +24,7 @@
                 </p>
             </nav>
             <div class="header_container">
-                <h1 class="h1"><span class="nowrap">Build The Community</span> <span class="nowrap">Your Fans Will Love.</span></h1>
+                <h1 class="h1"><span class="nowrap">Build The Community</span> <span class="nowrap">Your Fans Will Love</span></h1>
                 <p class="h_content">
                     <span class="nowrap">Huddle re-imagines the way we build</span>
                     <span class="nowrap">communities. You have a voice, but so does</span>
@@ -44,7 +44,7 @@
 
 
         
-        <main>
+        <main class="pad">
             <!-- | -->
             <article class="communities_messages_container">
                 <h2 class="offscreen">Numbers of Communities Formed and Messages Sent</h2>
@@ -77,10 +77,17 @@
             <!-- el ILLUSTRATION SECTION -->
             <!-- | ILLUSTRATION ONE -->
             <div class="illustration_section">
-                <article class="illustration_container">
+                <article class="illustration_container wave">
+
+                    <!-- [-] Curvy Image -->
+                    <div class="wave_background">
+                        <img src="images/bg-section-bottom-mobile-1.svg" alt="">
+                    </div>
+                    <!-- [-] -->
+
                     <!-- divS -->
                     <div class="illustration_content">
-                        <h2>Grow Together</h2>
+                        <h2 class="text_center">Grow Together</h2>
                         <p class="text_center">
                             Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.
                         </p>
@@ -88,15 +95,20 @@
                     <!-- divE -->
                     <!--  -->
                     <figure>
-                        <img src="images/illustration-grow-together.svg" alt="growth illustration" width="1023" height="838" title="Grow Together">
+                        <img src="images/illustration-grow-together.svg" alt="growth illustration" width="1023" height="838" title="Grow Together" class="illustration_image">
                         <figcaption class="offscreen">Grow Together</figcaption>
                     </figure>
+                    <!-- [-] Curvy Image -->
+                    <div class="wave_background">
+                        <img src="images/bg-section-top-mobile-1.svg" alt="">
+                    </div>
+                    <!-- [-] -->
                 </article>
                 <!-- | ILLUSTRATION TWO -->
                 <article class="illustration_container">
                     <!-- divS -->
                     <div class="illustration_content">
-                        <h2>Flowing Conversations</h2>
+                        <h2 class="text_center">Flowing Conversations</h2>
                         <p class="text_center">
                             You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.
                         </p>
@@ -104,15 +116,20 @@
                     <!-- divE -->
                     <!--  -->
                     <figure>
-                        <img src="images/illustration-flowing-conversation.svg" alt="conversation illustration" width="1125" height="801" title="Flowing Conversations">
+                        <img src="images/illustration-flowing-conversation.svg" alt="conversation illustration" width="1125" height="801" title="Flowing Conversations" class="illustration_image">
                         <figcaption class="offscreen">Flowing Conversations</figcaption>
                     </figure>
                 </article>
                 <!-- | ILLUSTRATION THREE -->
-                <article class="illustration_container">
+                <article class="illustration_container wave">
+                    <!-- [-] Curvy Image -->
+                    <div class="wave_background">
+                        <img src="images/bg-section-bottom-mobile-2.svg" alt="">
+                    </div>
+                    <!-- [-] -->
                     <!-- divS -->
                     <div class="illustration_content">
-                        <h2>Your Users</h2>
+                        <h2 class="text_center">Your Users</h2>
                         <p class="text_center">
                             It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.
                         </p>
@@ -120,60 +137,80 @@
                     <!-- divE -->
                     <!--  -->
                     <figure>
-                        <img src="images/illustration-your-users.svg" alt="users illustration" width="1078" height="813" title="Your Users">
+                        <img src="images/illustration-your-users.svg" alt="users illustration" width="1078" height="813" title="Your Users" class="illustration_image">
                         <figcaption class="offscreen">Your Users</figcaption>
                     </figure>
+                    <!-- [-] Curvy Image -->
+                    <div class="wave_background">
+                        <img src="images/bg-section-top-mobile-2.svg" alt="">
+                    </div>
+                    <!-- [-] -->
                 </article>
             </div>
             <!-- | -->
-            <section>
+            <section class="build_community_get_started">
                 <h3>Ready To Build Your Community?</h3>
-                <p>
+                <p class="h_link">
                     <a href="#">Get Started For Free</a>
                 </p>
             </section>
             <!-- | -->
         </main>
-        <footer>
-            <section>
-                <!-- ! In-line styled -->
-                <a href="#" style="background-color: hsl(192, 100%, 9%); padding: 1rem; display: inline-block;">
-                    <img src="images/logoBottom.svg" alt="Huddle Logo" width="240" height="39">
-                </a>
-                <h3 class="offscreen">Huddle</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
-                </p>
-            </section>
-            <section>
-                <h3>Contact Information</h3>
-                <img src="images/icon-phone.svg" alt="" class="phone_and_email_icons">
-                <p>
-                    <a href="tel:+1-543-123-4567">+1-543-123-4567</a>
-                </p>
-                <img src="images/icon-email.svg" alt="" class="phone_and_email_icons">
-                <p>
-                    <a href="mailto:example@huddle.com">example@huddle.com</a>
-                </p>
-            </section>
-            <section>
-                <h3>Newsletter</h3>
-                <p>
-                    To recieve tips on how to grow your community, sign up to our weekly newsletter. We&apos;ll never send you spam or pass on your email address
-                </p>
-                <form action="https://httpbin.org/post" method="post">
-                    <label for="email" class="offscreen">Enter Your Email:</label>
-                    <input type="email" name="email" id="email" placeholder="john#mail.com" required autocomplete="off">
-                    <button type="submit">Subscribe</button>
-                    <br>
-                    <span>Check your email please</span>
-                </form>
-            </section>
-            <nav>
-                <i class="fa-brands fa-square-facebook"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-square-twitter"></i>
-            </nav>
+        <footer class="page_footer">
+            <img src="images/bg-footer-top-mobile.svg" alt="">
+            <div class="footer_content_container pad">
+                <section class="news_letter_container">
+                    <h3>Newsletter</h3>
+                    <p>
+                        To recieve tips on how to grow your community, sign up to our weekly newsletter. We&apos;ll never send you spam or pass on your email address
+                    </p>
+                    <form action="https://httpbin.org/post" method="post">
+                        <div class="newsletter_input_box">
+                            <label for="email" class="offscreen">Enter Your Email:</label>
+                            <input type="email" name="email" id="email" placeholder="john#mail.com" required autocomplete="off">
+                            <span class="hide">Check your email please</span>
+                        </div>
+                        <div class="newsletter_button_box">
+                            <button type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </section>
+                <div class="lower_footer">
+                    <section>
+                        <!-- ! In-line styled -->
+                        <a href="#">
+                            <img src="images/logoBottom.svg" alt="Huddle Logo" width="240" height="39" class="bottom_logo">
+                        </a>
+                        <h3 class="offscreen">Huddle</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+                        </p>
+                    </section>
+                    <section>
+                        <h3 class="offscreen">Contact Information</h3>
+                        <span class="contacts_info">
+                            <img src="images/icon-phone.svg" alt="" class="phone_and_email_icons">
+                            <p>
+                                <a href="tel:+1-543-123-4567">+1-543-123-4567</a>
+                            </p>
+                        </span>
+                        <span class="contacts_info">
+                            <img src="images/icon-email.svg" alt="" class="phone_and_email_icons">
+                            <p>
+                                <a href="mailto:example@huddle.com">example@huddle.com</a>
+                            </p>
+                        </span>
+                    </section>
+                    <section>
+                        <h3 class="offscreen">Social Media Links</h3>
+                        <nav class="social_media_contacts social_media_info">
+                            <i class="fa-brands fa-square-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-square-twitter"></i>
+                        </nav>
+                    </section>
+                </div>
+            </div> <!-- $ footer_content_container-->
         </footer>
     </body>
 </html>
